@@ -16,6 +16,7 @@ html {
   background: #060822;
   display: flex;
   justify-content: center;
+  overflow: scroll;
   /* align-items: center; */
 }
 
@@ -218,7 +219,7 @@ input:focus {
   right: 0;
   margin: auto;
   -webkit-transform: translateY(500%) scale(-0.1, 20);
-  transform: translateY(500%) scale(-0.1, 20);
+  transform: translateY(500%) scale(-0.1, 10);
 }
 
 .effect04:hover::before {
